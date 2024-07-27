@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+
 const Navbar = () => {
     return (
         <>
@@ -17,22 +18,22 @@ const Navbar = () => {
                             <Link href="/">_home</Link>
                         </li>
                         <li className='hover:text-[#9a99ff]'>
-                            <Link href="/about">_about</Link>
+                            <Link href="/About/about.js">_about</Link>
                         </li>
                         <li className='hover:text-[#9a99ff]'>
-                            <Link href="./Portfolio/portfolio">_portfolio</Link>
+                            <Link href="">_portfolio</Link>
                         </li>
                         <li className='hover:text-[#9a99ff]'>
-                            <Link href="/Experience/Experience">_experience</Link>
+                            <Link href="">_experience</Link>
                         </li>
                         <li className='hover:text-[#9a99ff]'>
-                            <Link href="/servicesProvider">_services</Link>
+                            <Link href="">_services</Link>
                         </li>
                         <li className='hover:text-[#9a99ff]'>
-                            <Link href="/resume">_resume</Link>
+                            <Link href="">_resume</Link>
                         </li>
                         <li className='hover:text-[#9a99ff]'>
-                            <Link href="/contact">_contact</Link>
+                            <Link href="">_contact</Link>
                         </li>
                     </ul>
                 </nav>
