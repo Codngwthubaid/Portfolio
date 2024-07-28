@@ -18,22 +18,22 @@ const Navbar = () => {
                             <Link href="/">_home</Link>
                         </li>
                         <li className='hover:text-[#9a99ff]'>
-                            <Link href="/About/about.js">_about</Link>
+                            <Link href="/About">_about</Link>
                         </li>
                         <li className='hover:text-[#9a99ff]'>
-                            <Link href="">_portfolio</Link>
+                            <Link href="/Portfolio">_portfolio</Link>
+                        </li>
+                        {/* <li className='hover:text-[#9a99ff]'>
+                            <Link href="/Experience">_experience</Link>
+                        </li> */}
+                        <li className='hover:text-[#9a99ff]'>
+                            <Link href="/ServicesProvider">_services</Link>
                         </li>
                         <li className='hover:text-[#9a99ff]'>
-                            <Link href="">_experience</Link>
+                            <Link href="/Resume">_resume</Link>
                         </li>
                         <li className='hover:text-[#9a99ff]'>
-                            <Link href="">_services</Link>
-                        </li>
-                        <li className='hover:text-[#9a99ff]'>
-                            <Link href="">_resume</Link>
-                        </li>
-                        <li className='hover:text-[#9a99ff]'>
-                            <Link href="">_contact</Link>
+                            <Link href="/MainContact">_contact</Link>
                         </li>
                     </ul>
                 </nav>

@@ -2,6 +2,7 @@ import { VT323 } from "next/font/google";
 import Left from "@/components/Left";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Contact from './Contact/page'
 import "./globals.css";
 
 export const VT323_init = VT323({
@@ -29,6 +30,7 @@ export default function RootLayout({ children }) {
           <div className='w-[90vw] absolute left-[5vw] border border-[#3c3c3c]'>
             <Navbar />
             {children}
+            <Contact/>
             <Footer />
           </div>
         </div>
