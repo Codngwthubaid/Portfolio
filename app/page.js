@@ -8,7 +8,7 @@ import Pwsd from '@/public/imgs/Pwsd.png';
 import Todo from '@/public/imgs/Todo.png';
 import DownArrow from './DownArrow/page';
 
-const page = () => {
+const Page = () => {
   const [isClient, setIsClient] = useState(false)
   useEffect(() => {
     setIsClient(true)
@@ -216,4 +216,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
