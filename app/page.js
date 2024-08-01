@@ -50,7 +50,6 @@ const Page = () => {
   return (
     <>
       <main>
-        {/* Home-Section */}
         <section>
           <div className='md:h-[30vh]'>
             <div className='flex flex-col justify-center items-center gap-3 mt-8'>
@@ -66,7 +65,7 @@ const Page = () => {
           </div>
         </section>
 
-        {/* About-Section */}
+
         <section>
           <div className='flex flex-col justify-center items-center'>
             <div><DownArrow /></div>
@@ -92,7 +91,7 @@ const Page = () => {
           </div>
         </section>
 
-        {/* Portfolio-Section */}
+
         <section>
           <div className='flex flex-col justify-center items-center'>
             <div><DownArrow /></div>
@@ -109,7 +108,7 @@ const Page = () => {
             </div>
           </div>
 
-          {/* Display-Cards */}
+
           <div className='flex flex-col'>
             <div className='flex justify-evenly items-center gap-x-10 flex-col sm:flex-row'>
               <div className=' m-[5vw]  flex flex-col items-start justify-start sm:w-[30vw]'>
@@ -128,11 +127,11 @@ const Page = () => {
                       alt="Picture of the author"
                       className={clsx(
                         'border-2 border-[#3c3c3c] rounded-xl',
-                      
-                        'sm:w-[35vw] sm:h-36', // small screens and up
-                        'md:w-[35vw] md:h-48', // medium screens and up
-                        'lg:w-[35vw] lg:h-[200px]', // large screens and up
-                        'xl:w-[35vw] xl:h-[225px]' // extra-large screens and up
+
+                        'sm:w-[35vw] sm:h-36',
+                        'md:w-[35vw] md:h-48', 
+                        'lg:w-[35vw] lg:h-[200px]', 
+                        'xl:w-[35vw] xl:h-[225px]' 
                       )}
                     />
                   </div> : 'Prerendered'}
@@ -142,15 +141,15 @@ const Page = () => {
               <div className='sm:w-[40vw] flex justify-center items-center'>
                 {isClient ?
                   <div className='relative sm:left-4 p-5 rounded-xl hover:bg-[#3a3a3a]'>
-                   <Image
+                    <Image
                       src={Todo}
                       alt="Picture of the author"
                       className={clsx(
                         'border-2 border-[#3c3c3c] rounded-xl',
-                        'sm:w-[35vw] sm:h-36', // small screens and up
-                        'md:w-[35vw] md:h-48', // medium screens and up
-                        'lg:w-[35vw] lg:h-[200px]', // large screens and up
-                        'xl:w-[35vw] xl:h-[225px]' // extra-large screens and up
+                        'sm:w-[35vw] sm:h-36',
+                        'md:w-[35vw] md:h-48', 
+                        'lg:w-[35vw] lg:h-[200px]', 
+                        'xl:w-[35vw] xl:h-[225px]' 
                       )}
                     />
                   </div> : 'Prerendered'}
@@ -167,7 +166,6 @@ const Page = () => {
           </div>
         </section>
 
-        {/* ServicesProvider-Section */}
         <section>
           <div>
             <div className='flex flex-col justify-center items-center'>
