@@ -5,9 +5,8 @@ import Typed from 'typed.js';
 import clsx from 'clsx';
 import Pwsd from '@/public/imgs/Pwsd.png';
 import Todo from '@/public/imgs/Todo.png';
-import Halalify from '@/public/imgs/Halalify.png'
 
-const page = () => {
+const Portfolio = () => {
 
   const [isClient, setIsClient] = useState(false)
   useEffect(() => {
@@ -116,4 +115,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Portfolio

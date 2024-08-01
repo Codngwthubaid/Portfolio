@@ -2,7 +2,7 @@
 import React from 'react'
 import Typed from 'typed.js';
 
-const page = () => {
+const ServiceProvider = () => {
   const el = React.useRef(null);
   const fd = React.useRef(null);
   const bd = React.useRef(null);
@@ -110,5 +110,5 @@ const page = () => {
   )
 }
 
-export default page
+export default ServiceProvider
 

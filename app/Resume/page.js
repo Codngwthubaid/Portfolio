@@ -3,7 +3,7 @@ import React from 'react'
 import Typed from 'typed.js';
 import DownArrow from '../DownArrow/page';
 
-const page = () => {
+const Resume = () => {
   const el = React.useRef(null);
   const i1 = React.useRef(null);
   const i2 = React.useRef(null);
@@ -153,7 +153,7 @@ const page = () => {
   )
 }
 
-export default page
+export default Resume
 const metadata = {
   title: "Resume - Ubaid's Portfolio",
   description: "Hey, My Name is Ubaid, and I'm a Web developer currently pursing BCA degree. With a passion for coding and love for creativity. I have embarked on this existing journey to explore the vast world of the Web Developement.",
