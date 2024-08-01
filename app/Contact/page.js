@@ -53,13 +53,13 @@ const Contact = () => {
             <div className='flex flex-col justify-center items-center'>
               <div><DownArrow /></div>
             </div>
-            <div className='mt-10 flex justify-center items-center text-[90px] text-white'>
-              <div>&laquo; </div>
-              <div>contact</div>
-              <div>&raquo;</div>
+            <div className='mt-10 flex justify-center items-center text-[90px]'>
+              <div className='text-[40px] sm:text-[60px] md:text-[70px] lg:text-[90px]'>&laquo; </div>
+              <div className='text-[40px] sm:text-[60px] md:text-[70px] lg:text-[90px]'>contact</div>
+              <div className='text-[40px] sm:text-[60px] md:text-[70px] lg:text-[90px]'>&raquo;</div>
             </div>
             <div>
-              <div className='text-[#cac068] flex flex-col justify-center items-center'>
+              <div className='text-[#cac068] flex flex-col justify-center items-center m-[5vw]'>
                 <div>Skilled full stack developer delivering robust, scalable solutions</div>
                 <div>Reach out for collaboration on innovative web projects</div>
               </div>
@@ -79,7 +79,7 @@ const Contact = () => {
 
             <div className='flex justify-center items-center'>
               <button onClick={(e) => { handleSubmit(e) }}>
-                <div className='bg-[#4baed8] text-white text-xl py-3 px-5 hover:bg-[#9a99ff] '>&laquo; send &raquo;</div>
+                <div className='bg-[#4baed8] text-xl py-3 px-5 hover:bg-[#9a99ff] '>&laquo; send &raquo;</div>
               </button>
             </div>
           </div>

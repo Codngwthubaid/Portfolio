@@ -23,11 +23,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={VT323_init.className}>
-        <div className='flex justify-between'>
-          <div>
-            <Left />
-          </div>
-          <div className='w-[90vw] absolute left-[5vw] border border-[#3c3c3c]'>
+        <div className='flex justify-between text-white'>
+          <div><Left /></div>
+          <div className='w-[88vw] sm:w-[95vw] border border-[#3c3c3c]'>
             <Navbar />
             {children}
             <Contact/>
