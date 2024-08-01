@@ -6,7 +6,7 @@ const Experience = () => {
     <>
       <main>
         <div className='flex flex-col justify-center items-center '>
-          <div className='mt-10 flex justify-center items-center text-[90px] text-white'>
+          <div className='mt-10 flex justify-center items-center text-[90px] '>
             <div>&laquo; </div>
             <div>Experienec</div>
             <div>&raquo;</div>
@@ -21,7 +21,7 @@ const Experience = () => {
           <div>
             {/* First */}
             <div className='flex gap-x-10  w-[80vw] mt-[10vh]'>
-              <div className='w-[25vw] flex flex-col justify-center items-center text-3xl underline text-white'>
+              <div className='w-[25vw] flex flex-col justify-center items-center text-3xl underline '>
                 <Link href="https://prodigyinfotech.dev/" target='_blank'>
                   <div>Prodigy InfoTech</div>
                   <div>Web Dev Inter</div>
@@ -32,7 +32,7 @@ const Experience = () => {
 
             {/* Second */}
             <div className='flex gap-x-10  w-[80vw] mt-[10vh]'>
-              <div className='w-[25vw] flex flex-col justify-center items-center text-3xl underline text-white'>
+              <div className='w-[25vw] flex flex-col justify-center items-center text-3xl underline '>
                 <Link href="https://www.codsoft.in/" target='_blank'>
                   <div>CodSoft Company</div>
                   <div>Web Dev Inter</div>

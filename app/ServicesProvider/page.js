@@ -37,7 +37,7 @@ const page = () => {
     <>
       <main>
         <section>
-          <div className='mt-10 flex justify-center items-center text-[90px] text-white'>
+          <div className='mt-10 flex justify-center items-center text-[90px] '>
             <div className=' text-[40px] sm:text-[60px] md:text-[70px] lg:text-[90px  '>&laquo;</div>
             <div className=" text-[40px] sm:text-[60px] md:text-[70px] lg:text-[90px  text-[#4baed8]">
               <span ref={el} />
@@ -56,8 +56,8 @@ const page = () => {
           <div className='mt-[10vh] mx-auto '>
             <div className='sm:flex w-[80vw] mx-auto mb-3'>
               <div className='flex justify-around items-center w-[80vw] sm:w-[45vw] border border-[#3c3c3c]'>
-                <div className='text-white text-2xl w-[10vw] text-center'>#1</div>
-                <div className='flex justify-center items-center text-3xl sm:text-4xl text-white w-[70vw] sm:w-[35vw]'>
+                <div className=' text-2xl w-[10vw] text-center'>#1</div>
+                <div className='flex justify-center items-center text-3xl sm:text-4xl  w-[70vw] sm:w-[35vw]'>
                   <div>&laquo;</div>
                   <div>&nbsp;</div>
                   <div className="text-[#9a99ff]">
@@ -73,8 +73,8 @@ const page = () => {
 
             <div className='sm:flex w-[80vw] mx-auto mb-3'>
               <div className='flex justify-around items-center w-[80vw] sm:w-[45vw] border border-[#3c3c3c]'>
-                <div className='text-white text-2xl w-[10vw] text-center'>#2</div>
-                <div className='flex justify-center items-center text-3xl sm:text-4xl text-white w-[70vw] sm:w-[35vw]'>
+                <div className=' text-2xl w-[10vw] text-center'>#2</div>
+                <div className='flex justify-center items-center text-3xl sm:text-4xl  w-[70vw] sm:w-[35vw]'>
                   <div>&laquo;</div>
                   <div>&nbsp;</div>
                   <div className="text-[#9a99ff]">
@@ -90,8 +90,8 @@ const page = () => {
 
             <div className='sm:flex w-[80vw] mx-auto mb-3'>
               <div className='flex justify-around items-center w-[80vw] sm:w-[45vw] border border-[#3c3c3c]'>
-                <div className='text-white text-2xl w-[10vw] text-center'>#3</div>
-                <div className='flex justify-center items-center text-3xl sm:text-4xl text-white w-[70vw] sm:w-[35vw]'>
+                <div className=' text-2xl w-[10vw] text-center'>#3</div>
+                <div className='flex justify-center items-center text-3xl sm:text-4xl  w-[70vw] sm:w-[35vw]'>
                   <div>&laquo;</div>
                   <div>&nbsp;</div>
                   <div className="text-[#9a99ff]">
