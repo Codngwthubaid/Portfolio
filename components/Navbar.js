@@ -17,7 +17,7 @@ const Navbar = () => {
                 <nav className='flex justify-between items-center px-10'>
                     <div className='w-fit flex flex-col items-end py-5'>
                         <div className=' flex flex-row text-2xl gap-x-3'>
-                            <div>//</div>
+                            <div>&#47;&#47;</div>
                             <div>Ubaid</div>
                         </div>
                         <div className='text-xl text-[#9a99ff]'>Web_Dev</div>
@@ -49,7 +49,7 @@ const Navbar = () => {
                         <button className='' onClick={() => { toggleNavbar() }}>
                             {isClick ? (
                           <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256">
-                          <g fill="#cac068" fill-rule="nonzero" stroke="none" strokeWidth="1" strokeLinecap="butt" strokeLinejoin="miter" strokeMiterlimit="10" strokeDasharray="" strokeDashoffset="0" fontFamily="none" font-weight="none" font-size="none" text-anchor="none" ><g transform="scale(5.12,5.12)"><path d="M9.15625,6.3125l-2.84375,2.84375l15.84375,15.84375l-15.9375,15.96875l2.8125,2.8125l15.96875,-15.9375l15.9375,15.9375l2.84375,-2.84375l-15.9375,-15.9375l15.84375,-15.84375l-2.84375,-2.84375l-15.84375,15.84375z"></path></g></g>
+                          <g fill="#cac068" fill-Rule="nonzero" stroke="none" strokeWidth="1" strokeLinecap="butt" strokeLinejoin="miter" strokeMiterlimit="10" strokeDasharray="" strokeDashoffset="0" fontFamily="none" fontWeight="none" font-size="none" textAnchor="none" ><g transform="scale(5.12,5.12)"><path d="M9.15625,6.3125l-2.84375,2.84375l15.84375,15.84375l-15.9375,15.96875l2.8125,2.8125l15.96875,-15.9375l15.9375,15.9375l2.84375,-2.84375l-15.9375,-15.9375l15.84375,-15.84375l-2.84375,-2.84375l-15.84375,15.84375z"></path></g></g>
                           </svg>
                             ) : (
                                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="35" viewBox="0,0,256,256">

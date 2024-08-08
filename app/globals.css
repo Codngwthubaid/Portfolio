@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 * {
-  font-family: "VT323", monospace;
+  /* font-family: "VT323", monospace; */
   font-weight: 400;
   font-style: normal;
   cursor: url('../public/imgs/Cursor.png'),auto;
