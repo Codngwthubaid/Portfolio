@@ -2,7 +2,8 @@ import { VT323 } from "next/font/google";
 import Left from "@/components/Left";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import Contact from './Contact/page'
+import Contact from './Contact/page';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import "./globals.css";
 
 export const VT323_init = VT323({
@@ -28,11 +29,11 @@ export default function RootLayout({ children }) {
           <div className='w-[88vw] sm:w-[95vw] border border-[#3c3c3c]'>
             <Navbar />
             {children}
-            <Contact/>
+            <Contact />
             <Footer />
           </div>
         </div>
-
+        <SpeedInsights />
       </body>
     </html>
   );
