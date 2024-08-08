@@ -53,7 +53,7 @@ const Page = () => {
         <section>
           <div className='md:h-[30vh]'>
             <div className='flex flex-col justify-center items-center gap-3 mt-8'>
-              <div className=' text-lg '>&#47;&#47; HI, I'M Ubaid, A...</div>
+              <div className=' text-lg '>&#47;&#47; HI, I&apos;M Ubaid, A...</div>
               <div className='flex items-center'>
                 <div className='text-[33px] sm:text-[60px] md:text-[70px] lg:text-[90px]'>&laquo; </div>
                 <div className="text-[33px] sm:text-[60px] md:text-[70px] lg:text-[90px] text-[#cac068]">

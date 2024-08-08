@@ -77,7 +77,7 @@ const Resume = () => {
               </div>
             </div>
             <div className='w-[80vw] sm:w-[55vw] text-[#cac068] text-lg p-3 border border-[#3c3c3c]'>
-              <div className=' text-xl'>// Prodigy InfoTech - Inter</div>
+              <div className=' text-xl'>&#47;&#47; Prodigy InfoTech - Inter</div>
               <div>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla reiciendis dolorum soluta officia aspernatur fugiat voluptates dolorem! Odio nam quod at praesentium quaerat nulla rerum sint ratione, ab quia eaque.
               </div>
@@ -97,7 +97,7 @@ const Resume = () => {
               </div>
             </div>
             <div className='w-[80vw] sm:w-[55vw] text-[#cac068] text-lg p-3 border border-[#3c3c3c]'>
-              <div className=' text-xl'>// CodSoft - Inter</div>
+              <div className=' text-xl'>&#47;&#47; CodSoft - Inter</div>
               <div>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla reiciendis dolorum soluta officia aspernatur fugiat voluptates dolorem! Odio nam quod at praesentium quaerat nulla rerum sint ratione, ab quia eaque.
               </div>
