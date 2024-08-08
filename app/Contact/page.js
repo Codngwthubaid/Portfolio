@@ -3,7 +3,7 @@ import React , {useState , useRef} from 'react'
 import DownArrow from '../DownArrow/page'
 
 const Contact = () => {
-
+  const onSubmit = (data) => console.log(data)
   const ref = useRef(null)
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
@@ -14,10 +14,11 @@ const Contact = () => {
     setName(e.target.value)
   }
   const SubmitEmail = (e) => {
-    SubmitEmail(e.target.value)
+    setEmail(e.target.value)
   }
+  
   const SubmitMessage = (e) => {
-    SubmitMessage(e.target.value)
+    setMessage(e.target.value)
   }
 
   const handleSubmit = (e) => {
@@ -68,11 +69,11 @@ const Contact = () => {
             <div>
               <div >
                 <form className='flex flex-col  my-10 mx-[5vw]' action="">
-                  <input ref={ref} onChange={(e) => { setName(e.target.value) }} className='text-[#9a99ff] placeholder:text-[#9a99ff] pb-8 text-xl  border border-[#424242] rounded my-2' type="text" placeholder='_name*' name="name" required="This Field is neccessary to file !!!" />
+                  <input ref={ref} onChange={(e) => { setName(e.target.value) }} className='text-[#9a99ff] placeholder:text-[#9a99ff] pb-8 text-xl  border border-[#424242] rounded my-2' type="text" placeholder='_name*' name="name"  />
 
-                  <input ref={ref} onChange={(e) => { setEmail(e.target.value) }} className='text-[#9a99ff] placeholder:text-[#9a99ff] pb-8 text-xl  border border-[#424242] rounded my-2' type="email" placeholder='_email*' name="email"  required="This Field is neccessary to file !!!"/>
+                  <input ref={ref} onChange={(e) => { setEmail(e.target.value) }} className='text-[#9a99ff] placeholder:text-[#9a99ff] pb-8 text-xl  border border-[#424242] rounded my-2' type="email" placeholder='_email*' name="email"  />
 
-                  <textarea ref={ref} onChange={(e) => { setMessage(e.target.value) }} className='text-[#9a99ff] placeholder:text-[#9a99ff] pb-8 h-[40vh] text-xl  border border-[#424242] rounded my-2' name="message" placeholder='_message*' id="" required="This Field is neccessary to file !!!" ></textarea>
+                  <textarea ref={ref} onChange={(e) => { setMessage(e.target.value) }} className='text-[#9a99ff] placeholder:text-[#9a99ff] pb-8 h-[40vh] text-xl  border border-[#424242] rounded my-2' name="message" placeholder='_message*'   ></textarea>
                 </form>
               </div>
             </div>
