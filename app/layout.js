@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
       <body className={VT323_init.className}>
         <div className='flex justify-between text-white'>
           <div><Left /></div>
-          <div className='w-[88vw] sm:w-[95vw] border border-[#3c3c3c]'>
+          <div className='w-full sm:w-[95vw] border border-[#3c3c3c]'>
             <Navbar />
             {children}
             <Contact />
