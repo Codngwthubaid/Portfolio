@@ -24,7 +24,7 @@ const WorkExperience = () => {
 
         <div className="work-container flex flex-col justify-center items-center gap-y-5">
           <div className="work-canvas ">
-            {/* <Canvas>
+            <Canvas>
               <ambientLight intensity={7} />
               <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
               <directionalLight position={[10, 10, 10]} intensity={1} />
@@ -33,8 +33,8 @@ const WorkExperience = () => {
               <Suspense fallback={<CanvasLoader />}>
                 <Developer position-y={-3} scale={3} animationName={animationName} />
               </Suspense>
-            </Canvas> */}
-            <WarpBackground className="w-full h-full">
+            </Canvas>
+            {/* <WarpBackground className="w-full h-full">
               <Card>
                 <CardContent className="flex flex-col gap-2 p-4">
                   <CardTitle>My Professional Experience: A Timeline of Growth</CardTitle>
@@ -54,7 +54,7 @@ const WorkExperience = () => {
                   <p className="text-9xl bg-black-600">😎</p>
                 </ScratchToReveal>
       
-            </WarpBackground>
+            </WarpBackground> */}
 
           </div>
 
