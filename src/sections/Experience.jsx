@@ -5,6 +5,14 @@ import { OrbitControls } from '@react-three/drei';
 import Developer from '../components/Developer.jsx';
 import CanvasLoader from '../components/Loading.jsx';
 import { workExperiences } from '../constants/index.js';
+import { WarpBackground } from '@/components/ui/warp-background.jsx';
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardTitle,
+} from "@/components/ui/card.jsx";
+import { ScratchToReveal } from "@/components/ui/scratch-to-reveal.jsx";
 
 const WorkExperience = () => {
   const [animationName, setAnimationName] = useState('idle');
@@ -14,9 +22,9 @@ const WorkExperience = () => {
       <div className="w-full text-white-600">
         <p className="head-text">My Work Experience</p>
 
-        <div className="work-container">
-          <div className="work-canvas">
-            <Canvas>
+        <div className="work-container flex flex-col justify-center items-center gap-y-5">
+          <div className="work-canvas ">
+            {/* <Canvas>
               <ambientLight intensity={7} />
               <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
               <directionalLight position={[10, 10, 10]} intensity={1} />
@@ -25,7 +33,29 @@ const WorkExperience = () => {
               <Suspense fallback={<CanvasLoader />}>
                 <Developer position-y={-3} scale={3} animationName={animationName} />
               </Suspense>
-            </Canvas>
+            </Canvas> */}
+            <WarpBackground className="w-full h-full">
+              <Card>
+                <CardContent className="flex flex-col gap-2 p-4">
+                  <CardTitle>My Professional Experience: A Timeline of Growth</CardTitle>
+                  <CardDescription>
+                  Explore the key milestones in my career journey, showcasing the skills I've developed, the challenges I've overcome, and the contributions I've made to each role along the way.
+                  </CardDescription>
+                </CardContent>
+              </Card>
+           
+                <ScratchToReveal
+                  width={250}
+                  height={250}
+                  minScratchPercentage={70}
+                  className="flex items-center justify-center overflow-hidden rounded-2xl border-2 bg-gray-100"
+                  gradientColors={["#1a1a1a ","#1a1a1a ","#1a1a1a"]}
+                >
+                  <p className="text-9xl bg-black-600">😎</p>
+                </ScratchToReveal>
+      
+            </WarpBackground>
+
           </div>
 
           <div className="work-content">
