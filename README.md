@@ -1,5 +1,3 @@
-# Portfolio [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/)
-
 # Getting Started Locally
 
 1. Clone this repository to your local machine:
