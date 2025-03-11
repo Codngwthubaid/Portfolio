@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon } from "lucide-react";
 
 export const DATA = {
   name: "Ubaid",
@@ -170,6 +170,35 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Video Conferencng Application",
+      href: "https://github.com/Codngwthubaid/Video-Calling-Application",
+      dates: "Aug 2024 - Dec 2024",
+      active: true,
+      description:
+        "Developed a video confererencing application built with Next.js and styled using Tailwind CSS. It leverages multiple packages for enhanced functionality, ensuring a seamless user experience. The app features real-time communication, user authentication, and a scalable architecture.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Stream",
+        "Clerk",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://nuvca.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Codngwthubaid/nuvca/",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/VideoCalling.png",
+    },
+    {
       title: "Headphones Landing Page",
       href: "https://headphones-project.vercel.app/",
       dates: "Jan 2024 - Feb 2024",
@@ -224,30 +253,6 @@ export const DATA = {
         },
       ],
       image: "/HealthConnect.png",
-    },
-    {
-      title: "Video Calling Application",
-      href: "https://github.com/Codngwthubaid/Video-Calling-Application",
-      dates: "Aug 2024 - Dec 2024",
-      active: true,
-      description:
-        "Developed a video calling application built with Next.js and styled using Tailwind CSS. It leverages multiple packages for enhanced functionality, ensuring a seamless user experience. The app features real-time communication, user authentication, and a scalable architecture.",
-      technologies: [
-        "Next.js",
-        "Javascript",
-        "TailwindCSS",
-        "Shadcn UI",
-        "MongoDB",
-        "ZegoCloud",
-      ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/Codngwthubaid/Video-Calling-Application",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/VideoCalling.png",
     },
     {
       title: "Ai VideoNarrative Generator",
