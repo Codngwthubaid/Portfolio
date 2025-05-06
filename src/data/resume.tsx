@@ -4,9 +4,9 @@ import { HomeIcon } from "lucide-react";
 export const DATA = {
   name: "Ubaid",
   initials: "DV",
-  url: "https://dillion.io",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  url: "https://codngwthubaid.vercel.app/",
+  location: "Rampur, UP - India ",
+  // locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
     "Full Stack Developer || Web Developer Tutor at Preply || BCA Student || 2nd year",
   summary:
@@ -79,7 +79,6 @@ export const DATA = {
       },
     },
   },
-
   work: [
     {
       company: "Preply",
@@ -170,6 +169,71 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Job-Searcher",
+      href: "https://github.com/Codngwthubaid/Job-Searcher",
+      dates: "1 May 2025 - 5 May 2025",
+      active: true,
+      description:
+        "Job-Searcher is a web app that helps you quickly find jobs by aggregating listings and offering powerful search and filter options. Built with TypeScript and JavaScript, it provides a fast, user-friendly experience for job seekers.",
+      technologies: [
+        "React.Js",
+        "Express.Js",
+        "Javascript",
+        "Typescript",
+        "TailwindCSS",
+        "MongoDB Atlas",
+        "Shadcn UI",
+        "Clerk",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://jobsearcher-mauve.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Codngwthubaid/Job-Searcher",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/Job-Seacher.png",
+    },
+    {
+      title: "Pdf Uploader Powered By RAG",
+      href: "https://github.com/Codngwthubaid/PDF-Uploader",
+      dates: "27 April 2025 - 30 April 2025",
+      active: true,
+      description:
+        "Pdf Uploader powered by RAG(LangChain) lets you upload PDFs and ask questions about their content using AI- driven retrieval.Fast, easy, and perfect for extracting insights from documents..",
+      technologies: [
+        "React.Js",
+        "Express.Js",
+        "LangChain",
+        "Vector - QdrantDB",
+        "BullMQ",
+        "Docker",
+        "Javascript",
+        "Typescript",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Clerk",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://pdf-uploader-jade.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Codngwthubaid/PDF-Uploader",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/pdf-uploader.png",
+    },
+    {
       title: "Video Conferencng Application",
       href: "https://github.com/Codngwthubaid/Video-Calling-Application",
       dates: "Aug 2024 - Dec 2024",
@@ -197,33 +261,6 @@ export const DATA = {
         },
       ],
       image: "/VideoCalling.png",
-    },
-    {
-      title: "Headphones Landing Page",
-      href: "https://headphones-project.vercel.app/",
-      dates: "Jan 2024 - Feb 2024",
-      active: true,
-      description:
-        "NUHP is an elegant landing page for headphones, built with HTML, CSS, SCSS and JS. It features a responsive design for all devices and uses JavaScript for interactive elements. Showcasing product highlights and user reviews, NUHP provides an engaging experience for audio enthusiasts.",
-      technologies: [
-        "HTML",
-        "CSS",
-        "SCSS",
-        "JS",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://headphones-project.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/Codngwthubaid/Headphones-Project",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/Headphones.png",
     },
     {
       title: "Health Connect",
@@ -255,54 +292,33 @@ export const DATA = {
       image: "/HealthConnect.png",
     },
     {
-      title: "Ai VideoNarrative Generator",
-      href: "https://github.com/Codngwthubaid/Ai-VideoNarrative",
-      dates: "Oct 2024 - Present",
+      title: "Headphones Landing Page",
+      href: "https://headphones-project.vercel.app/",
+      dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
-        "Developed an AI-based SaaS application that converts video content into text, creating blog-like narratives. Built with Next.js, TypeScript, and ShadCN, it features a sleek UI with TailwindCSS. Secure payment integration and Vercel deployment ensure a seamless user experience.",
+        "NUHP is an elegant landing page for headphones, built with HTML, CSS, SCSS and JS. It features a responsive design for all devices and uses JavaScript for interactive elements. Showcasing product highlights and user reviews, NUHP provides an engaging experience for audio enthusiasts.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "TailwindCSS",
-        "ShadCN",
-        "RazorPay",
+        "HTML",
+        "CSS",
+        "SCSS",
+        "JS",
       ],
       links: [
         {
-          type: "Source",
-          href: "https://github.com/Codngwthubaid/Ai-VideoNarrative",
-          icon: <Icons.github className="size-3" />,
+          type: "Website",
+          href: "https://headphones-project.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
         },
-      ],
-      image: "/Ai-VideoNarrative.png",
-    },
-    {
-      title: "Reel Ai",
-      href: "https://github.com/Codngwthubaid/Ai-Video-Generator",
-      dates: "Jan 2025 - Present",
-      active: true,
-      description:
-        "Developed an AI based short video generating application with the help of nextjs framework and gemini AI.",
-      technologies: [
-        "Next.js",
-        "Gemini API",
-        "Murf AI",
-        "Assembly AI",
-        "Typescript",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-      ],
-      links: [
         {
           type: "Source",
-          href: "https://github.com/Codngwthubaid/Ai-Video-Generator",
+          href: "https://github.com/Codngwthubaid/Headphones-Project",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/ReelAi.png",
+      image: "/Headphones.png",
     },
+
   ],
   hackathons: [
     {
