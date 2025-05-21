@@ -169,6 +169,38 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Halalify",
+      href: "https://github.com/Codngwthubaid/Halalify",
+      dates: "2 April 2025 - 18 May 2025",
+      active: true,
+      description:
+        "Halalify is a web application designed to provide users with a curated selection of halal music. Built with MERN Stack, it offers a responsive and user-friendly interface, ensuring smooth navigation and an enjoyable listening.",
+      technologies: [
+        "React.Js",
+        "Express.Js",
+        "Javascript",
+        "Typescript",
+        "TailwindCSS",
+        "MongoDB Atlas",
+        "Shadcn UI",
+        "Clerk",
+        "CLoudinary",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://halalify-yakv.onrender.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Codngwthubaid/Halalify",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/Halalify.png",
+    },
+    {
       title: "Job-Searcher",
       href: "https://github.com/Codngwthubaid/Job-Searcher",
       dates: "1 May 2025 - 5 May 2025",
