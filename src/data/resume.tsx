@@ -242,8 +242,39 @@ export const DATA = {
       image: "/VideoCalling.png",
     },
     {
+      title: "WebZaura Landing Page",
+      href: "https://webzaura.vercel.app/",
+      dates: "Jan 2024 - Feb 2024",
+      active: true,
+      description:
+        "WebZaura is an elegant landing page for Software Development Agency. It features a responsive design for all devices. Showcasing product highlights and user reviews, WebZaura provides an engaging experience for audio enthusiasts.",
+      technologies: [
+        "Nexjs",
+        "TailwindCSS",
+        "ShadCN",
+        "MagicUI",
+        "Axios",
+        "Zod",
+        "GSAP",
+        "AceternityUI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://webzaura.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Codngwthubaid/WebZaura",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/webzaura.png",
+    },
+    {
       title: "Headphones Landing Page",
-      href: "https://headphones-project.vercel.app/",
+      href: "https://webzaura.vercel.app/",
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
@@ -257,7 +288,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://headphones-project.vercel.app/",
+          href: "https://webzaura.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
