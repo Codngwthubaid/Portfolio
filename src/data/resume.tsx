@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Full Stack Developer || Web Developer Tutor at Preply || BCA Student || 2nd year",
   summary:
-    "Full Stack Developer and Web Developer Tutor at [Preply](https://preply.com/en/tutor/4418475), currently pursing BCA program, leverages their skills to teach and guide others while furthering their own education. This individual likely possesses a strong foundation in web development technologies and is actively expanding their knowledge in computer applications. They are passionate about coding and sharing their expertise with students, making complex programming concepts accessible and enjoyable. As a tutor on [Preply](https://preply.com/en/tutor/4418475), they assist aspiring developers in mastering languages and frameworks such as HTML, CSS, JavaScript, React, Node, Express , MongoDB, and more.",
+  "I am a Full Stack Developer Intern at [Pixelwand](https://www.pixelwand.live/) Studio and Web Development Tutor at [Preply](https://preply.com/en/tutor/4418475) currently pursuing my BCA, with hands-on experience in building scalable applications and teaching modern web technologies. At [Pixelwand](https://www.pixelwand.live/) Studio, I develop full-stack features using React, React Native, HonoJS, PostgreSQL, and REST APIs. As a [Preply](https://preply.com/en/tutor/4418475) tutor, I help students master HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB by simplifying complex concepts and guiding them through real-world projects. I’m passionate about problem-solving, clean code, and continuous learning.",
   avatarUrl: "/me.jpg",
   skills: [
     "HTML",
@@ -81,6 +81,18 @@ export const DATA = {
   },
   work: [
     {
+      company: "Pixelwand Studio",
+      badges: [],
+      href: "https://www.pixelwand.live/",
+      location: "Onsite",
+      title: "Full Stack Developer Intern",
+      logoUrl: "/pixelwand-image.webp",
+      start: "10th Nov 2025",
+      end: "Present",
+      description:
+        "Building full-stack features using ReactJS, React Native and HonoJS for backend API development. Designing schemas in PostgreSQL, integrating REST APIs, and optimizing backend services. Contributing to production-ready code, debugging, and performance optimization.",
+    },
+    {
       company: "Preply",
       badges: [],
       href: "https://preply.com/",
@@ -90,7 +102,7 @@ export const DATA = {
       start: "28th Dec 2023",
       end: "Present",
       description:
-        "As a Preply web development tutor, share your skills in HTML, CSS, JavaScript, and more with students worldwide. Create personalized lessons, set your rates, and earn around $4/hour. Help students master front-end and back-end development and build real-world projects. Passion for teaching and strong web development knowledge are essential.",
+        "As a Preply web development tutor, share your skills in HTML, CSS, JavaScript, and more with students worldwide. Create personalized lessons, set your rates, and earn around $8/hour. Help students master front-end and back-end development and build real-world projects. Passion for teaching and strong web development knowledge are essential.",
     },
     {
       company: "DevTown",
@@ -232,40 +244,6 @@ export const DATA = {
       image: "/Job-Seacher.png",
     },
     {
-      title: "Pdf Uploader Powered By RAG",
-      href: "https://github.com/Codngwthubaid/PDF-Uploader",
-      dates: "27 April 2025 - 30 April 2025",
-      active: true,
-      description:
-        "Pdf Uploader powered by RAG(LangChain) lets you upload PDFs and ask questions about their content using AI- driven retrieval.Fast, easy, and perfect for extracting insights from documents..",
-      technologies: [
-        "React.Js",
-        "Express.Js",
-        "LangChain",
-        "Vector - QdrantDB",
-        "BullMQ",
-        "Docker",
-        "Javascript",
-        "Typescript",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Clerk",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://pdf-uploader-jade.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/Codngwthubaid/PDF-Uploader",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/pdf-uploader.png",
-    },
-    {
       title: "Video Conferencng Application",
       href: "https://github.com/Codngwthubaid/Video-Calling-Application",
       dates: "Aug 2024 - Dec 2024",
@@ -351,6 +329,56 @@ export const DATA = {
       image: "/Headphones.png",
     },
 
+  ],
+  freelanceProjects: [
+    {
+      title: "BillRest",
+      href: "https://billrest.com/",
+      dates: "01 July 2025 - Present",
+      active: true,
+      description:
+        "Billrest is a modern billing software which is designed for maintaining the billing, invoice, appointments, inventory managment in multiple field.Billrest have 2 segments right now - Billrest General and Billrest Health. Built with MERN Stack, it offers a responsive and user-friendly interface, ensuring smooth navigation.",
+      technologies: [
+        "React.Js",
+        "Express.Js",
+        "Javascript",
+        "Typescript",
+        "TailwindCSS",
+        "MongoDB Atlas",
+        "Shadcn UI",
+        "JWT",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://billrest.com/",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+      image: "/BillRest.png",
+    },
+    {
+      title: "NoLimitBikers",
+      href: "http://nolimitbikers.nl/",
+      dates: "15 September 2024 - 27 Dec 2024",
+      active: true,
+      description:
+        "NoLimiBikers is an web application for selling courses for bike learner in netherland. Entire application is built with Nextjs, it offers a responsive and user-friendly interface, ensuring smooth navigation.",
+      technologies: [
+        "Nextjs",
+        "Javascript",
+        "TailwindCSS",
+        "Shadcn UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://billrest.com/",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+      image: "/Nolimitbikers.png",
+    },
   ],
   hackathons: [
     {
