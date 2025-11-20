@@ -183,7 +183,7 @@ export const DATA = {
     {
       title: "Halalify",
       href: "https://github.com/Codngwthubaid/Halalify",
-      dates: "2 April 2025 - 18 May 2025",
+      dates: "April 2025 - May 2025",
       active: true,
       description:
         "Halalify is a web application designed to provide users with a curated selection of halal music. Built with MERN Stack, it offers a responsive and user-friendly interface, ensuring smooth navigation and an enjoyable listening.",
@@ -213,37 +213,6 @@ export const DATA = {
       image: "/Halalify.png",
     },
     {
-      title: "Job-Searcher",
-      href: "https://github.com/Codngwthubaid/Job-Searcher",
-      dates: "1 May 2025 - 5 May 2025",
-      active: true,
-      description:
-        "Job-Searcher is a web app that helps you quickly find jobs by aggregating listings and offering powerful search and filter options. Built with TypeScript and JavaScript, it provides a fast, user-friendly experience for job seekers.",
-      technologies: [
-        "React.Js",
-        "Express.Js",
-        "Javascript",
-        "Typescript",
-        "TailwindCSS",
-        "MongoDB Atlas",
-        "Shadcn UI",
-        "Clerk",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://jobsearcher-mauve.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/Codngwthubaid/Job-Searcher",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/Job-Seacher.png",
-    },
-    {
       title: "Video Conferencng Application",
       href: "https://github.com/Codngwthubaid/Video-Calling-Application",
       dates: "Aug 2024 - Dec 2024",
@@ -271,35 +240,6 @@ export const DATA = {
         },
       ],
       image: "/VideoCalling.png",
-    },
-    {
-      title: "Health Connect",
-      href: "https://health-connect-dusky.vercel.app/",
-      dates: "Nov 2024 - Dec 2024",
-      active: true,
-      description:
-        "Designed, developed and launched Health Connect is a unified platform for accessing and sharing health and fitness symptoms data.",
-      technologies: [
-        "Next.js",
-        "Javascript",
-        "Clerk",
-        "TailwindCSS",
-        "ShadCN",
-        "MagicUI"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://health-connect-dusky.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/HealthConnect.png",
     },
     {
       title: "Headphones Landing Page",
