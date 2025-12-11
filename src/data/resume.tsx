@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Full Stack Developer || Web Developer Tutor at Preply || BCA Student || Final year",
   summary:
-    "I am a Full Stack Developer Intern at [Pixelwand](https://www.pixelwand.live/) Studio and Web Development Tutor at [Preply](https://preply.com/en/tutor/4418475) currently pursuing my BCA, with hands-on experience in building scalable applications and teaching modern web technologies. At [Pixelwand](https://www.pixelwand.live/) Studio, I develop full-stack features using React, React Native, HonoJS, MongoDB, and REST APIs. As a [Preply](https://preply.com/en/tutor/4418475) tutor, I help students master HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB by simplifying complex concepts and guiding them through real-world projects. I’m passionate about problem-solving, clean code, and continuous learning.",
+    "I am a Full Stack Developer and Web Development Tutor at [Preply](https://preply.com/en/tutor/4418475), currently pursuing my BCA, with hands-on experience in building scalable applications and teaching modern web technologies. Previously at [Pixelwand](https://www.pixelwand.live/) Studio, I worked on full-stack feature development using React, React Native, HonoJS, MongoDB, and REST APIs. As a Preply tutor, I help students master HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB by simplifying complex concepts and guiding them through real-world projects. I’m passionate about problem-solving, clean code, and continuous learning.",
   avatarUrl: "/me.jpg",
   skills: [
     "HTML",
@@ -102,7 +102,7 @@ export const DATA = {
       start: "10th Nov 2025",
       end: "10th Dec 2025",
       description:
-        "Building full-stack features using ReactJS, React Native and HonoJS for backend API development. Designing schemas in PostgreSQL, integrating REST APIs, and optimizing backend services. Contributing to production-ready code, debugging, and performance optimization.",
+        "Building full-stack features using ReactJS, React Native and HonoJS for backend API development. Designing schemas in MongoDB, integrating REST APIs, and optimizing backend services. Contributing to production-ready code, debugging, and performance optimization.",
     },
     {
       company: "DevTown",
@@ -150,7 +150,7 @@ export const DATA = {
       start: "1st April 2024",
       end: "5th May 2024",
       description:
-        "Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, PostgreSQL and AWS EC2 saving hundreds of developer hours.",
+        "Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, MongoDB and AWS EC2 saving hundreds of developer hours.",
     },
   ],
   education: [
