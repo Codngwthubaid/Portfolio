@@ -8,9 +8,9 @@ export const DATA = {
   location: "Rampur, UP - India ",
   // locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Full Stack Developer || Web Developer Tutor at Preply || BCA Student || 2nd year",
+    "Full Stack Developer || Web Developer Tutor at Preply || BCA Student || Final year",
   summary:
-  "I am a Full Stack Developer Intern at [Pixelwand](https://www.pixelwand.live/) Studio and Web Development Tutor at [Preply](https://preply.com/en/tutor/4418475) currently pursuing my BCA, with hands-on experience in building scalable applications and teaching modern web technologies. At [Pixelwand](https://www.pixelwand.live/) Studio, I develop full-stack features using React, React Native, HonoJS, PostgreSQL, and REST APIs. As a [Preply](https://preply.com/en/tutor/4418475) tutor, I help students master HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB by simplifying complex concepts and guiding them through real-world projects. I’m passionate about problem-solving, clean code, and continuous learning.",
+    "I am a Full Stack Developer Intern at [Pixelwand](https://www.pixelwand.live/) Studio and Web Development Tutor at [Preply](https://preply.com/en/tutor/4418475) currently pursuing my BCA, with hands-on experience in building scalable applications and teaching modern web technologies. At [Pixelwand](https://www.pixelwand.live/) Studio, I develop full-stack features using React, React Native, HonoJS, MongoDB, and REST APIs. As a [Preply](https://preply.com/en/tutor/4418475) tutor, I help students master HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB by simplifying complex concepts and guiding them through real-world projects. I’m passionate about problem-solving, clean code, and continuous learning.",
   avatarUrl: "/me.jpg",
   skills: [
     "HTML",
@@ -81,6 +81,18 @@ export const DATA = {
   },
   work: [
     {
+      company: "Preply",
+      badges: [],
+      href: "https://preply.com/",
+      location: "Remote",
+      title: "Web Developer Tutor",
+      logoUrl: "/preply.jpg",
+      start: "28th Dec 2024",
+      end: "Present",
+      description:
+        "As a Preply web development tutor, share your skills in HTML, CSS, JavaScript, and more with students worldwide. Create personalized lessons, set your rates, and earn around $8/hour. Help students master front-end and back-end development and build real-world projects. Passion for teaching and strong web development knowledge are essential.",
+    },
+    {
       company: "Pixelwand Studio",
       badges: [],
       href: "https://www.pixelwand.live/",
@@ -88,21 +100,9 @@ export const DATA = {
       title: "Full Stack Developer Intern",
       logoUrl: "/pixelwand-image.webp",
       start: "10th Nov 2025",
-      end: "Present",
+      end: "10th Dec 2025",
       description:
         "Building full-stack features using ReactJS, React Native and HonoJS for backend API development. Designing schemas in PostgreSQL, integrating REST APIs, and optimizing backend services. Contributing to production-ready code, debugging, and performance optimization.",
-    },
-    {
-      company: "Preply",
-      badges: [],
-      href: "https://preply.com/",
-      location: "Remote",
-      title: "Web Developer Tutor",
-      logoUrl: "/preply.jpg",
-      start: "28th Dec 2023",
-      end: "Present",
-      description:
-        "As a Preply web development tutor, share your skills in HTML, CSS, JavaScript, and more with students worldwide. Create personalized lessons, set your rates, and earn around $8/hour. Help students master front-end and back-end development and build real-world projects. Passion for teaching and strong web development knowledge are essential.",
     },
     {
       company: "DevTown",
