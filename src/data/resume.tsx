@@ -8,9 +8,9 @@ export const DATA = {
   location: "Rampur, UP - India ",
   // locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Full Stack Developer || Web Developer Tutor at Preply || BCA Student || Final year",
+    "Full Stack Developer || Web Developer Tutor at Preply || BCA Final year",
   summary:
-    "I am a Full Stack Developer and Web Development Tutor at [Preply](https://preply.com/en/tutor/4418475), currently pursuing my BCA, with hands-on experience in building scalable applications and teaching modern web technologies. Previously at [Pixelwand](https://www.pixelwand.live/) Studio, I worked on full-stack feature development using React, React Native, HonoJS, MongoDB, and REST APIs. As a Preply tutor, I help students master HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB by simplifying complex concepts and guiding them through real-world projects. I’m passionate about problem-solving, clean code, and continuous learning.",
+    "I am a Full Stack Developer Intern at [Impresio Studio](https://www.theimpressio.in/) and a Web Development Tutor at [Preply](https://preply.com/en/tutor/4418475), currently in my final year of BCA. I have hands-on experience building scalable, production-ready web applications using modern technologies such as React, React Native, Node.js, MongoDB, REST APIs, and ExpressJS. Previously, as a Full Stack Developer Intern at [Pixelwand](https://www.pixelwand.live/) Studio, I contributed to end-to-end feature development across frontend and backend systems. Alongside development, I actively mentor students on Preply, helping them master HTML, CSS, JavaScript, React, Express, and MongoDB through practical, real-world projects. I am continuously learning cloud technologies, currently exploring AWS, with a strong focus on clean code, problem-solving, and scalable system design.",
   avatarUrl: "/me.jpg",
   skills: [
     "HTML",
@@ -20,7 +20,7 @@ export const DATA = {
     "Git",
     "GitHub",
     "React.js",
-    "Redux",
+    "Zustand",
     "Bootstrap",
     "React Native",
     "Next.js",
@@ -29,9 +29,9 @@ export const DATA = {
     "MongoDB",
     "Express.js",
     "Mongoose",
-    "NeonDB",
     "Prisma",
-    "C++",
+    "AWS",
+    "Docker",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -80,6 +80,18 @@ export const DATA = {
     },
   },
   work: [
+    {
+      company: "Impresio Studio",
+      badges: [],
+      href: "https://www.theimpressio.in/",
+      location: "Remote",
+      title: "Full Stack Developer Intern",
+      logoUrl: "/impresio_studio_logo.jpeg",
+      start: "1st Jan 2026",
+      end: "Present",
+      description:
+        "Building full-stack features using MERN Stack. Designing schemas in MongoDB, integrating REST APIs, and optimizing backend services. Contributing to production-ready code, debugging, and performance optimization.",
+    },
     {
       company: "Preply",
       badges: [],
@@ -279,12 +291,7 @@ export const DATA = {
       active: true,
       description:
         "NUHP is an elegant landing page for headphones, built with HTML, CSS, SCSS and JS. It features a responsive design for all devices and uses JavaScript for interactive elements. Showcasing product highlights and user reviews, NUHP provides an engaging experience for audio enthusiasts.",
-      technologies: [
-        "HTML",
-        "CSS",
-        "SCSS",
-        "JS",
-      ],
+      technologies: ["HTML", "CSS", "SCSS", "JS"],
       links: [
         {
           type: "Website",
@@ -299,13 +306,12 @@ export const DATA = {
       ],
       image: "/Headphones.png",
     },
-
   ],
   freelanceProjects: [
     {
-      title: "BillRest",
+      title: "BillRest - A Modern Billing & Inventory Management Software",
       href: "https://billrest.com/",
-      dates: "01 July 2025 - Present",
+      dates: "01 July 2025 - 01 Nov 2025",
       active: true,
       description:
         "Billrest is a modern billing software which is designed for maintaining the billing, invoice, appointments, inventory managment in multiple field.Billrest have 2 segments right now - Billrest General and Billrest Health. Built with MERN Stack, it offers a responsive and user-friendly interface, ensuring smooth navigation.",
@@ -324,7 +330,7 @@ export const DATA = {
           type: "Website",
           href: "https://billrest.com/",
           icon: <Icons.globe className="size-3" />,
-        }
+        },
       ],
       image: "/BillRest.png",
     },
@@ -335,18 +341,13 @@ export const DATA = {
       active: true,
       description:
         "NoLimiBikers is an web application for selling courses for bike learner in netherland. Entire application is built with Nextjs, it offers a responsive and user-friendly interface, ensuring smooth navigation.",
-      technologies: [
-        "Nextjs",
-        "Javascript",
-        "TailwindCSS",
-        "Shadcn UI",
-      ],
+      technologies: ["Nextjs", "Javascript", "TailwindCSS", "Shadcn UI"],
       links: [
         {
           type: "Website",
           href: "https://billrest.com/",
           icon: <Icons.globe className="size-3" />,
-        }
+        },
       ],
       image: "/Nolimitbikers.png",
     },
