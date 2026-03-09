@@ -207,18 +207,18 @@ export const DATA = {
         "JWT",
         "AI (Qwen 3.5 122B)"
       ],
-      // links: [
-      //   {
-      //     type: "Website",
-      //     href: "https://op-support.vercel.app/",
-      //     icon: <Icons.globe className="size-3" />,
-      //   },
-      //   {
-      //     type: "Source",
-      //     href: "https://github.com/Codngwthubaid/Halalify",
-      //     icon: <Icons.github className="size-3" />,
-      //   },
-      // ],
+      links: [
+        {
+          type: "Website",
+          href: "#",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "#",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
       image: "/op-support.png",
     },
     {
