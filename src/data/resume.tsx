@@ -22,14 +22,12 @@ export const DATA = {
     "React.js",
     "Zustand",
     "Bootstrap",
-    "React Native",
     "Next.js",
     "Typescript",
     "Node.js",
     "MongoDB",
     "Express.js",
     "Mongoose",
-    "Prisma",
     "AWS",
     "Docker",
   ],
@@ -87,7 +85,7 @@ export const DATA = {
       location: "Remote",
       title: "Full Stack Developer Intern",
       logoUrl: "/impresio_studio_logo.jpeg",
-      start: "1st Jan 2026",
+      start: "Jan 2026",
       end: "Present",
       description:
         "Building full-stack features using MERN Stack. Designing schemas in MongoDB, integrating REST APIs, and optimizing backend services. Contributing to production-ready code, debugging, and performance optimization.",
@@ -99,7 +97,7 @@ export const DATA = {
       location: "Remote",
       title: "Web Developer Tutor",
       logoUrl: "/preply.jpg",
-      start: "28th Dec 2024",
+      start: "Dec 2024",
       end: "Present",
       description:
         "As a Preply web development tutor, share your skills in HTML, CSS, JavaScript, and more with students worldwide. Create personalized lessons, set your rates, and earn around $8/hour. Help students master front-end and back-end development and build real-world projects. Passion for teaching and strong web development knowledge are essential.",
@@ -111,8 +109,8 @@ export const DATA = {
       location: "Onsite",
       title: "Full Stack Developer Intern",
       logoUrl: "/pixelwand-image.webp",
-      start: "10th Nov 2025",
-      end: "10th Dec 2025",
+      start: "July 2025",
+      end: "Dec 2025",
       description:
         "Building full-stack features using ReactJS, React Native and HonoJS for backend API development. Designing schemas in MongoDB, integrating REST APIs, and optimizing backend services. Contributing to production-ready code, debugging, and performance optimization.",
     },
@@ -123,8 +121,8 @@ export const DATA = {
       location: "Remote",
       title: "Campus Ambassador",
       logoUrl: "/devTown.jpg",
-      start: "1st Nov 2024",
-      end: "31st Nov 2024",
+      start: "Nov 2024",
+      end: "Nov 2024",
       description:
         "As a devTown Campus Ambassador, I'm the face of devTown at my college. I promote devTown's programs and services, organize events, and connect students with opportunities in the devTown community. I build brand awareness, gather feedback, and serve as a key link between devTown and the student body.",
     },
@@ -135,8 +133,8 @@ export const DATA = {
       location: "College",
       title: "Student Mentor",
       logoUrl: "/IEEE.jpg",
-      start: "2nd Sep 2024",
-      end: "29th Sep 2024",
+      start: "Sep 2024",
+      end: "Sep 2024",
       description:
         "As a Student Mentor in the IEEE program, I guide junior college students through a 3-week web development course. I provide hands-on instruction, answer questions, and offer support to help them build their web development skills and confidence, fostering a positive learning environment.",
     },
@@ -147,8 +145,8 @@ export const DATA = {
       location: "Remote",
       title: "Web Developer Intern",
       logoUrl: "/codSoft.jpg",
-      start: "15th June 2024",
-      end: "15th July 2024",
+      start: "June 2024",
+      end: "July 2024",
       description:
         "As a Web Developer Intern at CodSoft, I contribute remotely for one month. I assist in designing, coding, and testing web applications, working closely with the development team. My responsibilities include writing clean code, troubleshooting bugs, and implementing responsive designs to enhance user experience.",
     },
@@ -159,8 +157,8 @@ export const DATA = {
       location: "Remote",
       title: "Frontend Web Developer Intern",
       logoUrl: "/prodigy.jpg",
-      start: "1st April 2024",
-      end: "5th May 2024",
+      start: "April 2024",
+      end: "May 2024",
       description:
         "Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, MongoDB and AWS EC2 saving hundreds of developer hours.",
     },
@@ -192,6 +190,37 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "OP Support - AI Customer Care Chatbot Builder",
+      href: "https://github.com/Codngwthubaid/OP-Support",
+      dates: "Jan 2025 - Cooking",
+      active: true,
+      description:
+        "OP Support is an AI-powered customer care chatbot builder that integrates with your docs, links, and text to answer customer queries instantly. It provides a dashboard for managing chatbots, knowledge sources, and conversations.",
+      technologies: [
+        "Next.Js",
+        "Typescript",
+        "TailwindCSS",
+        "Shadcn UI",
+        "NeonDB",
+        "Scalekit",
+        "JWT",
+        "AI (Qwen 3.5 122B)"
+      ],
+      // links: [
+      //   {
+      //     type: "Website",
+      //     href: "https://op-support.vercel.app/",
+      //     icon: <Icons.globe className="size-3" />,
+      //   },
+      //   {
+      //     type: "Source",
+      //     href: "https://github.com/Codngwthubaid/Halalify",
+      //     icon: <Icons.github className="size-3" />,
+      //   },
+      // ],
+      image: "/op-support.png",
+    },
     {
       title: "Halalify",
       href: "https://github.com/Codngwthubaid/Halalify",
@@ -345,7 +374,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://billrest.com/",
+          href: "http://nolimitbikers.nl/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
