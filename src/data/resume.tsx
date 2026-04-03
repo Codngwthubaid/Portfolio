@@ -193,7 +193,7 @@ export const DATA = {
     {
       title: "OP Support - AI Customer Care Chatbot Builder",
       href: "https://github.com/Codngwthubaid/OP-Support",
-      dates: "Jan 2025 - Cooking",
+      dates: "Jan 2026 - March 2026",
       active: true,
       description:
         "OP Support is an AI-powered customer care chatbot builder that integrates with your docs, links, and text to answer customer queries instantly. It provides a dashboard for managing chatbots, knowledge sources, and conversations.",
@@ -210,12 +210,12 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "#",
+          href: "https://op-support-khaki.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "#",
+          href: "https://github.com/Codngwthubaid/op-support",
           icon: <Icons.github className="size-3" />,
         },
       ],
