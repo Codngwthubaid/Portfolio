@@ -8,28 +8,22 @@ export const DATA = {
   location: "Rampur, UP - India ",
   // locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Full Stack Developer || Web Developer Tutor at Preply || BCA Final year",
+    "AI Powered Data Analyst || Web Developer Tutor at Preply",
   summary:
-    "I am a Full Stack Developer Intern at [Impresio Studio](https://www.theimpressio.in/) and a Web Development Tutor at [Preply](https://preply.com/en/tutor/4418475), currently in my final year of BCA. I have hands-on experience building scalable, production-ready web applications using modern technologies such as React, React Native, Node.js, MongoDB, REST APIs, and ExpressJS. Previously, as a Full Stack Developer Intern at [Pixelwand](https://www.pixelwand.live/) Studio, I contributed to end-to-end feature development across frontend and backend systems. Alongside development, I actively mentor students on Preply, helping them master HTML, CSS, JavaScript, React, Express, and MongoDB through practical, real-world projects. I am continuously learning cloud technologies, currently exploring AWS, with a strong focus on clean code, problem-solving, and scalable system design.",
+    "I am an AI Powered Data Analyst and Web Development Tutor at [Preply](https://preply.com/en/tutor/4418475) with a strong foundation in data analytics, business intelligence, and software development. As a recent BCA graduate, I combine technical expertise in Python, SQL, Excel, Power BI, and AI-assisted analytics to transform complex datasets into actionable business insights. My experience includes data cleaning, exploratory data analysis (EDA), KPI reporting, dashboard development, and automation solutions that support data-driven decision-making. Alongside analytics, I mentor students in web development, helping them build practical skills in modern web technologies. I am passionate about leveraging data, AI, and technology to solve real-world business problems and create measurable impact.",
   avatarUrl: "/me.jpg",
   skills: [
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "Tailwind CSS",
+    "Python",
+    "Excel",
+    "SQL",
+    "PowerBI",
     "Git",
     "GitHub",
-    "React.js",
-    "Zustand",
-    "Bootstrap",
+    "MERN Stack",
     "Next.js",
     "Typescript",
-    "Node.js",
     "MongoDB",
-    "Express.js",
-    "Mongoose",
     "AWS",
-    "Docker",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -79,18 +73,6 @@ export const DATA = {
   },
   work: [
     {
-      company: "Impresio Studio",
-      badges: [],
-      href: "https://www.theimpressio.in/",
-      location: "Remote",
-      title: "Full Stack Developer Intern",
-      logoUrl: "/impresio_studio_logo.jpeg",
-      start: "Jan 2026",
-      end: "Present",
-      description:
-        "Building full-stack features using MERN Stack. Designing schemas in MongoDB, integrating REST APIs, and optimizing backend services. Contributing to production-ready code, debugging, and performance optimization.",
-    },
-    {
       company: "Preply",
       badges: [],
       href: "https://preply.com/",
@@ -100,7 +82,19 @@ export const DATA = {
       start: "Dec 2024",
       end: "Present",
       description:
-        "As a Preply web development tutor, share your skills in HTML, CSS, JavaScript, and more with students worldwide. Create personalized lessons, set your rates, and earn around $8/hour. Help students master front-end and back-end development and build real-world projects. Passion for teaching and strong web development knowledge are essential.",
+        "As a Preply web development tutor, I help students to learn full stack web development and specific niche as well like frontend development, backend development. Till now I teach more than 10+ international students with 165+ classes with 4.3/5 star of rating. My teaching style is simple learn the basic and do practice questions and build small projects and repeact the pattern",
+    },
+    {
+      company: "Impresio Studio",
+      badges: [],
+      href: "https://www.theimpressio.in/",
+      location: "Remote",
+      title: "Full Stack Developer Intern",
+      logoUrl: "/impresio_studio_logo.jpeg",
+      start: "Jan 2026",
+      end: "Mar 2026",
+      description:
+        "Building full-stack features using MERN Stack. Designing schemas in MongoDB, integrating REST APIs, and optimizing backend services. Contributing to production-ready code, debugging, and performance optimization.",
     },
     {
       company: "Pixelwand Studio",
@@ -113,54 +107,6 @@ export const DATA = {
       end: "Dec 2025",
       description:
         "Building full-stack features using ReactJS, React Native and HonoJS for backend API development. Designing schemas in MongoDB, integrating REST APIs, and optimizing backend services. Contributing to production-ready code, debugging, and performance optimization.",
-    },
-    {
-      company: "DevTown",
-      badges: [],
-      href: "https://www.devtown.in/",
-      location: "Remote",
-      title: "Campus Ambassador",
-      logoUrl: "/devTown.jpg",
-      start: "Nov 2024",
-      end: "Nov 2024",
-      description:
-        "As a devTown Campus Ambassador, I'm the face of devTown at my college. I promote devTown's programs and services, organize events, and connect students with opportunities in the devTown community. I build brand awareness, gather feedback, and serve as a key link between devTown and the student body.",
-    },
-    {
-      company: "IEEE",
-      href: "https://www.ieee.org/",
-      badges: [],
-      location: "College",
-      title: "Student Mentor",
-      logoUrl: "/IEEE.jpg",
-      start: "Sep 2024",
-      end: "Sep 2024",
-      description:
-        "As a Student Mentor in the IEEE program, I guide junior college students through a 3-week web development course. I provide hands-on instruction, answer questions, and offer support to help them build their web development skills and confidence, fostering a positive learning environment.",
-    },
-    {
-      company: "CodSoft",
-      href: "https://www.codsoft.in/",
-      badges: [],
-      location: "Remote",
-      title: "Web Developer Intern",
-      logoUrl: "/codSoft.jpg",
-      start: "June 2024",
-      end: "July 2024",
-      description:
-        "As a Web Developer Intern at CodSoft, I contribute remotely for one month. I assist in designing, coding, and testing web applications, working closely with the development team. My responsibilities include writing clean code, troubleshooting bugs, and implementing responsive designs to enhance user experience.",
-    },
-    {
-      company: "Prodigy Infotech",
-      href: "https://prodigyinfotech.dev/",
-      badges: [],
-      location: "Remote",
-      title: "Frontend Web Developer Intern",
-      logoUrl: "/prodigy.jpg",
-      start: "April 2024",
-      end: "May 2024",
-      description:
-        "Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, MongoDB and AWS EC2 saving hundreds of developer hours.",
     },
   ],
   education: [
@@ -187,6 +133,84 @@ export const DATA = {
       logoUrl: "/sunway.jpg",
       start: "2020",
       end: "2021",
+    },
+  ],
+  dataAnalystProjects: [
+    {
+      title: "Vendor Performance Analysis",
+      href: "https://github.com/Codngwthubaid/vendor-performance-data-analysis-SQL-Python-PowerBI",
+      dates: "June 2026",
+      active: true,
+      description:
+        "A comprehensive analysis of vendor purchasing patterns, sales performance, inventory turnover, and profitability insights. The project follows a complete data pipeline from raw CSV ingestion to interactive dashboards, covering ETL, exploratory data analysis, statistical hypothesis testing, and business recommendations.",
+      technologies: [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "Seaborn",
+        "SQL",
+        "PowerBI",
+        "SciPy"
+      ],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/Codngwthubaid/vendor-performance-data-analysis-SQL-Python-PowerBI",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/vendor-performance-dashboard.png",
+    },
+    {
+      title: "Customer Shopping Behavior Analysis",
+      href: "https://github.com/Codngwthubaid/customer-trends-data-analysis-SQL-Python-PowerBI",
+      dates: "June 2026",
+      active: true,
+      description:
+        "This project analyzes customer shopping behavior using transactional data from 3,900 purchases across various product categories. The goal is to uncover insights into spending patterns, customer segments, product preferences, and subscription behavior to guide strategic business decisions.",
+      technologies: [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "Seaborn",
+        "SQL",
+        "PowerBI",
+        "PyMySql",
+        "SQLAlchemy",
+      ],
+      links: [
+        {
+          type: "Github",
+          href: "https://github.com/Codngwthubaid/customer-trends-data-analysis-SQL-Python-PowerBI",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/customer-behaviour-dashboard.png",
+    },
+    {
+      title: "Supply Chain Analysis",
+      href: "https://github.com/Codngwthubaid/supply-chain-analysis",
+      dates: "June 2026",
+      active: true,
+      description:
+        "A data-driven analysis of delivery operations for a global e-commerce platform, covering 172,765 orders across January 2015 – January 2018. The project identifies root causes of chronic late deliveries, quantifies their financial impact, and provides actionable recommendations.",
+      technologies: [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "Seaborn"
+      ],
+      links: [
+        {
+          type: "Github",
+          href: "https://github.com/Codngwthubaid/supply-chain-analysis",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/supply-chain-analysis-ppt.png",
     },
   ],
   projects: [
