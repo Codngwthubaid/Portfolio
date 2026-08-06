@@ -362,6 +362,32 @@ export const DATA = {
   ],
   freelanceProjects: [
     {
+      title: "Lionyard - Discover Premium Offplan & Resale Properties",
+      href: "https://lionyard.ae/",
+      dates: "01 Feb 2026 - 01 Aug 2026",
+      active: true,
+      description:
+        "A full-stack real estate platform built for a Dubai-based property company Lionyard, featuring three integrated applications: a public marketing website for property seekers, a role-based admin & agent dashboard, and a Node.js REST API backend. The platform covers the complete property lifecycle from listing management to lead generation, consultation booking, and agent assignment",
+      technologies: [
+        "React.Js",
+        "Express.Js",
+        "Javascript",
+        "Typescript",
+        "TailwindCSS",
+        "MongoDB Atlas",
+        "Shadcn UI",
+        "JWT",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://lionyard.ae/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/lionyard.png",
+    },
+    {
       title: "BillRest - A Modern Billing & Inventory Management Software",
       href: "https://billrest.com/",
       dates: "01 July 2025 - 01 Nov 2025",
