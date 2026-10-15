@@ -73,6 +73,18 @@ export const DATA = {
   },
   work: [
     {
+      company: "AMLRS",
+      badges: [],
+      href: "https://www.amlrightsource.com/",
+      location: "Noida",
+      title: "Associate Analyst",
+      logoUrl: "/AMLRS.png",
+      start: "July 2026",
+      end: "Present",
+      description:
+        "rocess, organize, filter, and analyze customer financial records and customer information using Microsoft Excel to support accurate reporting and data review. Used VLOOKUP, XLOOKUP, and HLOOKUP to retrieve, match, and reconcile information across datasets and identify corresponding customer records. Applied filters and conditional filtering to relevant records, investigate data conditions, and support accurate reporting. Used Pivot Tables to summarize and analyze customer data, identify patterns, and generate structured views for reporting and review. Supported data preparation and reporting activities using Excel and SQL based data handling techniques"
+    },
+    {
       company: "Preply",
       badges: [],
       href: "https://preply.com/",
@@ -80,7 +92,7 @@ export const DATA = {
       title: "Web Developer Tutor",
       logoUrl: "/preply.jpg",
       start: "Dec 2024",
-      end: "Present",
+      end: "June",
       description:
         "As a Preply web development tutor, I help students to learn full stack web development and specific niche as well like frontend development, backend development. Till now I teach more than 10+ international students with 165+ classes with 4.3/5 star of rating. My teaching style is simple learn the basic and do practice questions and build small projects and repeact the pattern",
     },
