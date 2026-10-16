@@ -8,9 +8,9 @@ export const DATA = {
   location: "Rampur, UP - India ",
   // locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "AI Powered Data Analyst || Web Developer Tutor at Preply",
+    "Data Engineer in the Making || Associate Analyst @ AMLRS",
   summary:
-    "I am an AI Powered Data Analyst and Web Development Tutor at [Preply](https://preply.com/en/tutor/4418475) with a strong foundation in data analytics, business intelligence, and software development. As a recent BCA graduate, I combine technical expertise in Python, SQL, Excel, Power BI, and AI-assisted analytics to transform complex datasets into actionable business insights. My experience includes data cleaning, exploratory data analysis (EDA), KPI reporting, dashboard development, and automation solutions that support data-driven decision-making. Alongside analytics, I mentor students in web development, helping them build practical skills in modern web technologies. I am passionate about leveraging data, AI, and technology to solve real-world business problems and create measurable impact.",
+    "Associate Analyst at AMLRS | Ex - Developer Tutor at Preply. Cooking myself for becoming a Data Engineer. Currently works with SQL, Python, Databricks, DBT, PySpark. Build projects, for developing hands-on experience with data pipelines, ELT workflows, and data warehouse design. I also have experience in full-stack web development and tutoring, which helps me communicate technical ideas clearly and build practical solutions.",
   avatarUrl: "/me.jpg",
   skills: [
     "Python",
@@ -82,7 +82,7 @@ export const DATA = {
       start: "July 2026",
       end: "Present",
       description:
-        "rocess, organize, filter, and analyze customer financial records and customer information using Microsoft Excel to support accurate reporting and data review. Used VLOOKUP, XLOOKUP, and HLOOKUP to retrieve, match, and reconcile information across datasets and identify corresponding customer records. Applied filters and conditional filtering to relevant records, investigate data conditions, and support accurate reporting. Used Pivot Tables to summarize and analyze customer data, identify patterns, and generate structured views for reporting and review. Supported data preparation and reporting activities using Excel and SQL based data handling techniques"
+        "Process, organize, filter, and analyze customer financial records and customer information using Microsoft Excel to support accurate reporting and data review. Used VLOOKUP, XLOOKUP, and HLOOKUP to retrieve, match, and reconcile information across datasets and identify corresponding customer records. Applied filters and conditional filtering to relevant records, investigate data conditions, and support accurate reporting. Used Pivot Tables to summarize and analyze customer data, identify patterns, and generate structured views for reporting and review. Supported data preparation and reporting activities using Excel and SQL based data handling techniques"
     },
     {
       company: "Preply",
